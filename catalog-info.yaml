@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "NewTesting"
+  description: "New template testing"
+  annotations:
+    github.com/project-slug: outesting/NewTesting
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: repository
+  lifecycle: experimental
+  owner: "group:default/tecdev"

@@ -1,0 +1,8 @@
+site_name: NewTesting
+site_description: New template testing
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
